@@ -8,11 +8,24 @@ The data received by the module are frames from the NMEA 083 standard. There are
 $ GPGGA,163221.000,4854.8644,N,00219.4940,E,2,9,0.94,52.1,M,47.3
 
 It provides the following information:
-•	info n°1: Clock: 16h 32m 21s
-•	info n°2 & 3:Latitude: 4854.8644 N
-•	info n°4 & 5:Longitude: 219.4940 E
-•	info n°7:Number of satellites used: 9
-•	info n°8:Altitude: 52.1 m
+
+.info n°1: Clock: 16h 32m 21s
+
+.info n°2 & 3:Latitude: 4854.8644 N
+
+.info n°4 & 5:Longitude: 219.4940 E
+
+.info n°7:Number of satellites used: 9
+
+.info n°8:Altitude: 52.1 m
+
+Features:
+
+1. Easy to read for understanding each algorithm's basic idea.
+
+2. Widely used and practical algorithms are selected.
+
+3. Minimum dependency.
 
 
 ## Code Examples 
