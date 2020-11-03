@@ -5,7 +5,7 @@ A package for the [GPS Grove](https://www.seeedstudio.com/Grove-GPS-Module.html)
 
 The data received by the module are frames from the NMEA 083 standard. There are several types of frames including GPGGA and GPRMC. Here is an example of a valid GPGGA frame:
 
-$ GPGGA,163221.000,4854.8644,N,00219.4940,E,2,9,0.94,52.1,M, 47.3
+$ GPGGA,163221.000,4854.8644,N,00219.4940,E,2,9,0.94,52.1,M,47.3
 
 It provides the following information:
 info n°1: Clock: 16h 32m 21s
