@@ -19,15 +19,7 @@ It provides the following information:
 
 - info n°8:Altitude: 52.1 m
 
-- Python 3.8.x
 
-- numpy
-
-- scipy
-
-- matplotlib
-
-- pandas
 
 ## Code Examples 
 sample code to display the GPS time on the BBC micro:bit display.
