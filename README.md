@@ -8,6 +8,7 @@ The data received by the module are frames from the NMEA 083 standard. There are
 $ GPGGA,163221.000,4854.8644,N,00219.4940,E,2,9,0.94,52.1,M,47.3
 
 It provides the following information:
+
 info n°1: Clock: 16h 32m 21s
 info n°2 & 3:Latitude: 4854.8644 N
 info n°4 & 5:Longitude: 219.4940 E
