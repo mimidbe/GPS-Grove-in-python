@@ -1,7 +1,7 @@
 # GPS-Grove-in-python
 A package for the [GPS Grove] (https://www.seeedstudio.com/Grove-GPS-Module.html), for the BBC micro:bit.
 
-![logo](https://raw.github.com/mimidbe/GPS-Grove-in-python/master/images/GPS_Grove.png)
+![logo](https://raw.github.com/mimidbe/GPS-Grove-in-python/images/GPS_Grove.png)
 
 ## Code Example 
 sample code to display the GPS time on the BBC micro:bit display.
