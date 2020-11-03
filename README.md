@@ -2,7 +2,9 @@
 A package for the [GPS Grove] (https://www.seeedstudio.com/Grove-GPS-Module.html), for the BBC micro:bit.
 
 
-## Code Example
+## Code Example 
+sample code to display the GPS time on the BBC micro:bit display.
+
 ```Python
 from microbit import *
 import GPS_GROVE
