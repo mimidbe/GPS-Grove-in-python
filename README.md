@@ -1,5 +1,5 @@
 # GPS-Grove-in-python
-A package for the [GPS Grove] (https://www.seeedstudio.com/Grove-GPS-Module.html), for the BBC micro:bit.
+A package for the ![GPS Grove] (https://www.seeedstudio.com/Grove-GPS-Module.html), for the BBC micro:bit.
 
 ![logo](https://github.com/mimidbe/GPS-Grove-in-python/blob/main/images/GPS_Grove.png)
 
