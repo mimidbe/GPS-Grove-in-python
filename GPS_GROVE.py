@@ -3,7 +3,7 @@ from microbit import *
 # GPS on UART
 class GPS_GROVE:
 	def __init__(self,baudrate=9600,tx=pin14, rx=pin0):
-	  uart.init(baudrate, bits=8, parity=None, stop=1, tx, rx)*
+	  uart.init(baudrate, bits=8, parity=None, stop=1, tx, rx)
 	
 	def ready():
 	  return uart.any()
