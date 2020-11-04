@@ -37,5 +37,4 @@ class GPS_GROVE:
 	  if pos and float(pos):
 		base = int(float(pos)/100)
 		mn = float(pos) - base*100
-
 		return "%03.5f"%(base + mn/60)
