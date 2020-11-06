@@ -61,4 +61,4 @@ while True:
 MIT
 
 ## Supported targets
-for BBC micro:bit (The metadata above is needed for package search.
+for BBC micro:bit
