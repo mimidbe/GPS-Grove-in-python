@@ -1,7 +1,7 @@
 from microbit import *
 import GPS_GROVE
 
-monGPS = GPS_GROVE
+monGPS = GPS()
 
 while True:
   if monGPS.ready():
