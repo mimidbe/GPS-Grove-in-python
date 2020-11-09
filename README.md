@@ -28,7 +28,7 @@ sample code to display the GPS time on the BBC micro:bit display.
 from microbit import *
 import GPS_GROVE
 
-monGPS = GPS_GROVE
+monGPS = GPS()
 
 while True:
   if monGPS.ready():
@@ -45,7 +45,7 @@ sample code to display the GPS position on the BBC micro:bit display.
 from microbit import *
 import GPS_GROVE
 
-monGPS = GPS_GROVE
+monGPS = GPS()
 
 while True:
   if monGPS.ready():
