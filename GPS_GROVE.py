@@ -1,7 +1,7 @@
 from microbit import *
 
 # GPS on UART
-class GPS_GROVE:
+class GPS:
 	def __init__(self,baudrate=9600,tx=pin14, rx=pin0):
 	  uart.init(baudrate, bits=8, parity=None, stop=1, tx, rx)
 	
@@ -17,23 +17,23 @@ class GPS_GROVE:
 			  return data[info]
 		  if info == 1 :
 			if data[1] != None:
-			  return self._getTime(data[1])
+			  return self.__getTime(data[1])
 		  if info == 2 or info == 4:
 			if data[info] != None:
-			  return self._getPosition(data[info])
+			  return self.__getPosition(data[info])
 		  if info == 9 :
 			if float(data[9]) != None:
 			  return float(data[9])
 	  return None
 
-	def _getTime(date):
+	def __getTime(date):
 	  if date and float(date):
 		h = int(float(date) / 10000)
 		m = int((float(date) - h*10000) / 100)
 		s = int(float(date) - h*10000 - m*100)
 		return (h, m, s)
 
-	def _getPosition(pos):
+	def __getPosition(pos):
 	  if pos and float(pos):
 		base = int(float(pos)/100)
 		mn = float(pos) - base*100
